@@ -1,0 +1,81 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a4948588899493.5ec00bc435501.png) ;
+  background-size: 100%;
+  color: white;
+}
+
+input {
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  outline: none;
+  padding: 10px;
+  margin-left: 0px;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.location {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.temp {
+  font-size: 30px;
+  position: relative;
+  bottom: 85px;
+  margin-left: 190px;
+}
+
+.description {
+  position: relative;
+  margin-left: 0px;
+  bottom: 170px;
+  font-size: 20px;
+}
+
+.bottom {
+  display: flex;
+  position: relative;
+  bottom: 170px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 301px;
+  padding-left: 15px;
+  padding-right: 3px;
+
+  text-align: center;
+  border-radius: 5px;
+}
+
+.feels {
+  padding-right: 22px;
+}
+
+.humidity {
+  padding-right: 22px;
+}
+
+.container {
+  width: 320px;
+  height: 250px;
+  top: 200px;
+  position: relative;
+  padding: 30px;
+  border-radius: 5px;background: rgba(255,255,255,0.15);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255,255,255,0.075);
+}
