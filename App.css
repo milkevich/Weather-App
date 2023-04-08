@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a4948588899493.5ec00bc435501.png) ;
+  background-image: url(https://images.unsplash.com/photo-1634176866089-b633f4aec882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80) ;
   background-size: 100%;
   color: white;
 }
@@ -22,6 +22,7 @@ input {
   padding: 10px;
   margin-left: 0px;
   background-color: transparent;
+  color: white;
 }
 
 input::placeholder {
